@@ -1,11 +1,17 @@
-Ex.No:10 To create a option menu to display menu items.
-AIM:
+
+# Ex.No:10 To create a option menu to display menu items.
+
+
+## AIM:
+
 To create a option menu to display menu items using Android Studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+
 Latest Version Android Studio
 
-ALGORITHM:
+## ALGORITHM:
+
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as HelloWorld and click Next.
@@ -20,13 +26,17 @@ Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM:
+
+## PROGRAM:
+```
 /*
 Program to print the text “optionmenu”.
-Developed by: Praveen V
+Developed by: Praveen V 
 Registeration Number : 212221040121
 */
-activity_main.xml :
+```
+## activity_main.xml :
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -44,7 +54,11 @@ activity_main.xml :
         app:titleTextColor="@android:color/white" />
 
 </RelativeLayout>
-MainActivity.java :
+```
+
+##  MainActivity.java :
+
+```
 package com.example.menuinandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -72,7 +86,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-menu/option.xml :
+```
+
+##  menu/option.xml :
+```
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
@@ -85,10 +102,17 @@ menu/option.xml :
         android:id="@+id/action_item3"
         android:title="Item 3" />
 </menu>
-OUTPUT :
-aoptionmenu
+```
 
-aoptionmenus
 
-RESULT :
+## OUTPUT :
+
+![aoptionmenu](https://github.com/Thirualpha/menuinandroid/assets/113031702/745afc22-0d2b-4cb8-b3c4-a362d9f7cfc9)
+
+![aoptionmenus](https://github.com/Thirualpha/menuinandroid/assets/113031702/60af4682-43fb-4a03-8331-27dab390fc54)
+
+
+
+
+## RESULT :
 Thus a Simple Android Application to create a option menu to display menu items using Android Studio is developed and executed successfully.
